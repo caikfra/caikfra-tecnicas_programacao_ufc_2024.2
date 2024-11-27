@@ -9,6 +9,7 @@ def main():
     print(calc.mul(5,))
     print(calc.div(5,5))
     print(calc.div(5,))
+    print(calc.div(5,0))
 
 if __name__ == "__main__":
     main()
