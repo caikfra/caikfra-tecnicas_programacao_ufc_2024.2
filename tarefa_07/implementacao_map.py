@@ -9,7 +9,7 @@ print(list(map(lambda palavra: palavra.upper(), lista)), '\n')
 print(list(map(lambda numero: numero ** 0.5, lista2)), '\n')
 
 #1.3 Análise_Strings:
-print(list(map(lambda frase: {"palavras": frase.count("") + 1, "caracteres": len(frase)}
+print(dict(map(lambda frase: {"palavras": frase.count("") + 1, "caracteres": len(frase)}
 , lista3)), '\n')
 
 
