@@ -20,5 +20,4 @@ from functools import reduce
 lista_tuplas = [("a", 1), ("b", 2), ("a", 3)]
 
 dicionario_resultado = dict(reduce(lambda acumulador, item: {**acumulador, item[0]: acumulador.get(item[0], 0) + item[1]}, lista_tuplas, {}))
-
-print(dicionario_resultado)  # Saída esperada: {"a": 4, "b": 2}
+print(dicionario_resultado)  
